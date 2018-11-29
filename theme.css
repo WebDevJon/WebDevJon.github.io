@@ -195,6 +195,43 @@ body {
 	
 }
 
+footer {
+	
+	 width: 100%;
+	 height: 150px;
+	 background: #0d0016;
+	 text-align:center;
+	 
+	  display: inline-block;
+	  
+	  
+	
+	
+}
+
+.webdevjon {
+	color: blue;
+	font-family: 'Abel';
+	font-size: 2rem;
+	
+	animation-name: example;
+    animation-duration: 8s;
+	 animation-delay: 5s;
+	 animation-iteration-count: infinite;
+	
+	
+}
+
+
+@keyframes example {
+    0%   {color: blue;}
+    20%  {color: yellow;}
+    40%  {color: red;}
+    80% {color: green;}
+	100%   {color: blue;}
+	
+}
+
  
 	
 	/* border: yellow 1px solid; */
