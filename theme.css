@@ -210,6 +210,7 @@ footer {
 }
 
 .webdevjon {
+	display: inline-block;
 	color: blue;
 	font-family: 'Abel';
 	font-size: 2rem;
@@ -218,6 +219,8 @@ footer {
     animation-duration: 8s;
 	 animation-delay: 5s;
 	 animation-iteration-count: infinite;
+	 
+	 position: relative;
 	
 	
 }
@@ -236,6 +239,10 @@ footer {
 .twitter {
 	width:60px;
 	opacity: 0.5;
+	
+	position: absolute;
+	top: 40px;
+	left: 90px;
 	
 	
 }
