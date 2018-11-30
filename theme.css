@@ -247,18 +247,96 @@ footer {
 	
 }
 	
-	/* border: yellow 1px solid; */
+ /* ------------- WORK WITH JON - BUTTON ----*/
+ 
+ .workWithButton {
+	 
+	 height: 100px;
+	 width: 100px;
+	 background: #6be858;
+	 
+	 position: fixed;
+	 
+	 bottom: 15px;
+	 right: 15px;
+	 text-align: center;
+	 
+	 border-radius: 50px;
+	 
+	 animation-name: textFlash;
+    animation-duration: 8s;
+	 animation-delay: 10s;
+	 animation-direction: alternate;
+	 animation-iteration-count: infinite;
+	 
+ }
+ 
+ 
+  @keyframes textFlash {
+    from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+	
+}
+ .txtWrap {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+	   
+	 
+	 
+ }
+
+ .workWithTxt {
+	 
+	 display: inline-block;
+	 color: white;
+	 font-size: 1.5rem;
+	 
+	 font-family: 'Abel';
+	 
+	 max-width:60px;
+	  
+	 
+	 position: absolute;
+	 top: -15px;
+	 left: 20px;
 	 
 	
- 
- 
+	 
+	  
 	
-	/* border: blue 1px solid; */
-	
-	
+	 
+ }
  
 
-/* --------------- CODE EXAMPLE DIV ------- */
+ 
+  .workWithLink {
+	 
+	 display:block;
+	 
+	 width: 100%;
+	 height: 100%;
+	 
+	  
+	 
+	 
+	 
+ }
+ 
+ 
+   .workWithLink a:hover {
+	 
+	  
+	  
+	
+	
+}
+
+
+
+ 
+
+ 
 
  
 	
