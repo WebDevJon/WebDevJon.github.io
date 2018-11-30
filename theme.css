@@ -265,7 +265,7 @@ footer {
 	 
 	 animation-name: textFlash;
     animation-duration: 8s;
-	 animation-delay: 10s;
+	 animation-delay: 20s;
 	 animation-direction: alternate;
 	 animation-iteration-count: infinite;
 	 
